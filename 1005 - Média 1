@@ -1,0 +1,12 @@
+# Lê as notas A e B
+notaA = float(input())
+notaB = float(input())
+
+# Calcula a média ponderada
+pesoA = 3.5
+pesoB = 7.5
+soma_pesos = pesoA + pesoB
+media = (notaA * pesoA + notaB * pesoB) / soma_pesos
+
+# Imprime o resultado formatado
+print("MEDIA =", "{:.5f}".format(media))
