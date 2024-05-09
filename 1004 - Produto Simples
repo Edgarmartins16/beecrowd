@@ -1,0 +1,9 @@
+# Ler os dois valores inteiros da entrada padrão
+valor1 = int(input())
+valor2 = int(input())
+
+# Calcular o produto
+PROD = valor1 * valor2
+
+# Imprimir o resultado
+print("PROD =", PROD)
