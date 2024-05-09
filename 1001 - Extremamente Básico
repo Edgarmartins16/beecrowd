@@ -1,0 +1,23 @@
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+let A, B;
+
+rl.question('', (inputA) => {
+  rl.question('', (inputB) => {
+    A = parseInt(inputA);
+    B = parseInt(inputB);
+
+    const X = A + B;
+    console.log(`X = ${X}`);
+
+    rl.close();
+  });
+});
