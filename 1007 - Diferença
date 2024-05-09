@@ -1,0 +1,11 @@
+# Ler os valores de entrada
+A = int(input())
+B = int(input())
+C = int(input())
+D = int(input())
+
+# Calcular a diferença
+diferenca = (A * B) - (C * D)
+
+# Imprimir o resultado
+print("DIFERENCA =", diferenca)
