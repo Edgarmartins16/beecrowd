@@ -1,0 +1,11 @@
+import math
+
+# Ler os valores dos pontos do usuário
+x1, y1 = map(float, input().split())
+x2, y2 = map(float, input().split())
+
+# Calcular a distância entre os pontos
+distancia = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+# Imprimir a distância com 4 casas decimais após a vírgula
+print('{:.4f}'.format(distancia))
