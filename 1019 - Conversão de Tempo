@@ -1,0 +1,11 @@
+# Lê o valor inteiro representando o tempo em segundos
+segundos = int(input())
+
+# Calcula as horas, minutos e segundos
+horas = segundos // 3600
+segundos %= 3600
+minutos = segundos // 60
+segundos %= 60
+
+# Imprime o tempo no formato horas:minutos:segundos
+print("{}:{}:{}".format(horas, minutos, segundos))
