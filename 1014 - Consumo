@@ -1,0 +1,9 @@
+# Entrada dos valores
+distancia_total = int(input())
+combustivel_gasto = float(input())
+
+# Cálculo do consumo médio
+consumo_medio = distancia_total / combustivel_gasto
+
+# Saída formatada
+print("{:.3f} km/l".format(consumo_medio))
