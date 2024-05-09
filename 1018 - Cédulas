@@ -1,0 +1,13 @@
+# Lê o valor inteiro
+valor = int(input())
+
+# Lista das cédulas disponíveis
+cedulas = [100, 50, 20, 10, 5, 2, 1]
+
+print(valor)
+
+# Para cada cédula, calcula quantas são necessárias
+for cedula in cedulas:
+    qtd_cedulas = valor // cedula
+    print("%d nota(s) de R$ %d,00" % (qtd_cedulas, cedula))
+    valor %= cedula
