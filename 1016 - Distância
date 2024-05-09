@@ -1,0 +1,6 @@
+distancia = int(input())
+
+# Calcula o tempo necessário em minutos
+tempo = distancia * 2
+
+print(tempo, "minutos")
