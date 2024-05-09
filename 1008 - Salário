@@ -1,0 +1,11 @@
+# Leitura dos dados
+number = int(input())
+hours_worked = int(input())
+hourly_rate = float(input())
+
+# Cálculo do salário
+salary = hours_worked * hourly_rate
+
+# Saída formatada
+print("NUMBER =", number)
+print("SALARY = U$ {:.2f}".format(salary))
