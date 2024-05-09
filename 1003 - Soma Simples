@@ -1,0 +1,9 @@
+# Leia os valores de entrada
+A = int(input())
+B = int(input())
+
+# Calcule a soma
+SOMA = A + B
+
+# Imprima o resultado
+print("SOMA =", SOMA)
